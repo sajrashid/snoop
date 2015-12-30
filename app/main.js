@@ -1,11 +1,10 @@
 // to depend on a bower installed component:
 // define(['bower_components/componentName/file'])
 
-define(["jquery"], function ($) {
+define(["jquery", 'testModule'], function ($,t) {
 
-    require(['testModule'], function (t) {
         var val = 1;
         var x = t.someMethod(val);
-    });
+        console.log(x);
   $('body').append('jQuery ' + $.fn.jquery + ' loaded!');
 });

@@ -70,6 +70,14 @@ module.exports = function(grunt) {
         files: '<%= jshint.test.src %>',
         tasks: ['jshint:test', 'qunit']
       },
+      css: {
+          files: ['app/styles/*.css'],
+          tasks: ['css:dev']
+      },
+      js: {
+          files: ['app/js/*.js'],
+          tasks: ['uglify:dev']
+      }
     },
     requirejs: {
       compile: {

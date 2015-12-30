@@ -9,5 +9,5 @@ define(["jquery"], function ($) {
 
         }
     }
-    console.log('testModule');
+  
 });

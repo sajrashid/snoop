@@ -1,4 +1,4 @@
-{
+a{
   "name": "snoop",
   "dependencies": {
     "requirejs": "~2.1.5",
