@@ -4,7 +4,7 @@
 var require = {
     baseUrl: ".",
     paths: {
-        "testModule": "bower_modules/modules/testModule"
+        "testModule": "app/modules/testModule"
     },
     shim: {
       
