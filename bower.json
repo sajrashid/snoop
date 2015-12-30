@@ -1,8 +1,9 @@
-a{
+{
   "name": "snoop",
-  "dependencies": {
-    "requirejs": "~2.1.5",
-    "jquery": ">= 1.8.0",
-    "qunit": "~1.11.0"
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~3.4.2",
+    "mocha": "~2.3.4"
   }
 }
