@@ -2,5 +2,12 @@
 // define(['bower_components/componentName/file'])
 
 define(["jquery"], function ($) {
+    return {
+
+        someMethod: function (value) {
+            return value;
+
+        }
+    }
     console.log('testModule');
 });
